@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="formulaireCSS.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="message-error">
+        <p>ECHEC DU FORMULAIRE</p>
+    </div>
+    
+    <div class="message-success">
+        <p>Formulaire envoyé !</p>
+    </div>
+    
+    <form action="" method="post" enctype="multipart/form-data">
+        
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre Pseudo">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre Email">
+        </div>
+
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Votre Mot de Passe">
+        </div>
+
+        <div>
+            <label for="password2">Confirmez le Mot de Passe</label>
+            <input type="password2" id="password2" name="password2" placeholder="Confirmez le Mot de Passe">
+        </div>
+
+        <button type="submit">S'inscrire</button>
+
+        <input type="reset" value="Remettre à 0">
+
+    </form>
+    
+</body>
+</html>
+
+<script src="formulaire.js"></script>
