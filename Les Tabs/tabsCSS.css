@@ -1,0 +1,14 @@
+/* quand un élément a la classe "active" il aura un text en gras */
+.active{
+    font-weight: bold;
+}
+
+/* quand un élément a la classe "hide" il sera caché */
+.hide{
+    display: none;
+}
+
+/* quand un élément a la classe "afficher-contenu" il sera visible */
+.afficher-contenu{
+    display: block;
+}
