@@ -1,0 +1,348 @@
+/* Pour tous les éléments, leur marge interne et externe est de 0 */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+
+/* le haut du site a une couleur de fond noir, une plus faible opacité, les éléments sont flex */
+.head_top_of_site{
+    background-color: black;
+    opacity:0.8;
+    display: flex;
+    width: 1920px;
+}
+
+/* On ajuste la position de l'image */
+.img_logo_top_site{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left :10px;
+}
+
+.img_light_mode{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 1680px;
+}
+
+/* Element caché */
+.img_dark_mode{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 1680px;
+    display: none;
+}
+
+/* Element caché */
+.div_titre_top_site{
+    position: absolute;
+    top: 10px;
+    color: white;
+    left : 925px;
+}   
+
+
+.div_text_top_connexion{
+    position: relative;
+    top: 13px;
+    color: #0cd9df;
+    left : 85%;
+}
+
+.section_menu{
+    position: absolute;
+    opacity:0.8;
+    display: flex;
+    background-color: #272727;
+    border-radius: 30px;
+    padding : 20px;
+    margin : 100px 0px 0px 0px;
+    color: white;
+    left : 0px;
+    width: 1875px;
+}
+
+.div_text_accueil{
+    position: relative;
+    padding : 0px 490px 0px 0px;
+    left : 40px;
+    color: white;
+}
+
+.div_text_equipes{
+    position: relative;
+    padding : 0px 474px 0px 0px;
+    left : 60px;
+    color: white;
+}
+
+.div_text_cartes{
+    position: relative;
+    padding : 0px 474px 0px 0px;
+    left : 32px;
+}
+
+.div_text_resultat{
+    position: relative;
+    right : 40px;
+}
+
+.div_titre_presentation_video{
+    position: absolute;
+    top:450px;
+    color: white;
+    left : 200px;
+    background-color: black;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 2px solid #0cd9df;
+}
+
+
+
+.div_button_decouvrir{
+    color: white;
+    padding: 30px 64px;
+    background-color: #0cd9df;
+    position: absolute;
+    border-radius: 10px;
+    left : 413px;
+    top : 700px;
+}
+
+
+.button_decouvrir{
+    width: 100px;
+    border: none;
+    background-color: #0cd9df;
+    font-size: 16px;
+}
+
+.div_video{
+    position: static;
+    margin : -100px 0px 0px 0px;
+    width: 1920px;
+}
+
+.section_carte_presentation{
+    display: flex;
+    background-color: #272727;
+    padding : 600px 0px 300px 0px;
+    margin: -10px 0px 0px 0px;
+    color: white;
+    width: 1920px;
+}
+
+
+.div_text_carte{
+    color : white;
+    font-size: 20px;
+    position: absolute;
+    top : 1350px;
+    left : 100px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: 2px solid #0cd9df;
+}
+
+
+.div_carte{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}   
+
+.img_carte{
+    width: 300px;
+}
+
+.section_equipe_presentation{
+    display: flex;
+    background-color: black;
+    padding : 600px 0px 600px 0px;
+    width: 1920px;
+}
+
+
+.div_text_equipe{
+    color : white;
+    font-size: 20px;
+    position: absolute;
+    top : 2650px;
+    right : 100px;
+    background-color: #272727;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: 2px solid #0cd9df;
+}
+
+.img_logo_equipe_1{
+    position: absolute;
+    top : 3000px;
+    left : 110px;
+    width: 20%;
+}
+
+.img_logo_equipe_2{
+    position: absolute;
+    top : 3000px;
+    width: 12%;
+    left : 600px;
+}
+
+.img_logo_equipe_2_1{
+    position: absolute;
+    top : 3000px;
+    width: 12%;
+    left : 600px;
+    display: none;
+}
+
+.img_logo_equipe_3{
+    position: absolute;
+    top : 2970px;
+    width: 15%;
+    left : 1000px;
+}
+
+.img_logo_equipe_4{
+    position: absolute;
+    top : 3000px;
+    width: 18%;
+    left : 1400px;
+}
+
+
+.section_actualite{
+    display: flex;
+    background-color: #272727;
+    padding : 500px 0px 400px 0px;
+    width: 1920px;
+}
+
+.div_titre_actualite{
+    color : white;
+    font-size: 20px;
+    position: absolute;
+    top : 3750px;
+    left: 840px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px 32px;
+    border: 2px solid #0cd9df;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+.article{
+    width: 500px;
+}
+.article img{
+    width: 500px;
+    padding: 30px 0;
+}
+
+.div_actualite_1{
+    top : 3750px;
+    left : 100px;
+    color: white;
+}
+
+
+.div_actualite_2{
+    top : 3750px;
+    left : 750px;
+    color:white;
+}
+
+.div_actualite_3{
+    top : 3750px;
+    left : 71%;
+    color: white;
+}
+
+
+.div_actualite_4{
+    top : 4200px;
+    left : 100px;
+    color: white;
+}
+
+.div_actualite_5{
+    top : 4200px;
+    left : 750px;
+    color: white;
+}
+
+
+.div_actualite_6{
+    top : 4200px;
+    left : 1350px;
+    color:white;
+}
+
+
+#text_actualite_1{
+    color:white;
+}
+
+#text_actualite_2{
+    color:white;
+}
+
+#text_actualite_3{
+    color:white;
+}
+
+#text_actualite_4{
+    color:white;
+}
+
+#text_actualite_5{
+    color:white;
+}
+
+#text_actualite_6{
+    color:white;
+}
+
+
+.div_bas_page{
+    display: flex;
+    background-color: black;
+    padding: 0px 0px 200px 0px;
+    width: 1920px;
+}
+
+
+.div_text_contact{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 50px;
+}
+
+.div_text_condit_utilisa{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 600px;
+}
+
+.div_text_apropos{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 1290px;
+}

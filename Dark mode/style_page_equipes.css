@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+}
+
+a{
+    color: white;
+}
+
+.head_top_of_site{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 1920px;
+    height: 54px;
+}
+
+.img_logo_top_site{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left :10px;
+}
+
+.div_titre_top_site{
+    position: absolute;
+    top: 10px;
+    color: white;
+    left : 925px;
+}   
+
+.div_text_top_connexion{
+    position: relative;
+    top: 13px;
+    color: #0cd9df;
+    left : 85%;
+}
+
+.section_menu{
+    position: absolute;
+    display: flex;
+    background-color: #272727;
+    border-radius: 30px;
+    padding : 20px;
+    color: white;
+    width: 1920px;
+}
+
+.div_text_accueil{
+    position: relative;
+    padding : 0px 490px 0px 0px;
+    left : 40px;
+    color :white
+}
+
+.div_text_equipes{
+    position: relative;
+    padding : 0px 474px 0px 0px;
+    left : 60px
+}
+
+.div_text_cartes{
+    position: relative;
+    padding : 0px 474px 0px 0px;
+    left : 32px;
+}
+
+.div_text_resultat{
+    position: relative;
+    right : 40px;
+}
+
+
+
+.section_presentation_page{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding : 750px 0px 400px 0px;
+    color: white;
+    width: 1920px;
+    background-image: url("img_presentation.webp");
+}
+
+
+.div_titre_presentation{
+    position: absolute;
+    top:450px;
+    color: white;
+    left : 610px;
+    background-color: black;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 2px solid #0cd9df;
+}
+
+.section_presentation_T1{
+    display: flex;
+    background-color: black;
+    padding : 600px 0px 700px 0px;
+    width: 1920px;
+    color: white;
+}
+
+.div_presentation_text_T1{
+    position: absolute;
+    top : 1500px;
+    left : 45%;
+    font-size: 40px;
+}
+
+.img_logo_equipe_T1_1{
+    position: absolute;
+    top : 1450px;
+    left: 500px;
+}
+
+.img_logo_equipe_T1_2{
+    position: absolute;
+    width: 23%;
+    top : 1450px;
+    left: 1130px;
+}
+
+.text_T1{
+    position: absolute;
+    top : 1750px;
+    text-align: center;
+    left : 14%;
+    font-size: 24px;
+}
+
+.div_T1_img_presentation{
+    position: absolute;
+    top: 2100px;
+    left:680px;
+
+}
+
+.img_T1_img_presentation{
+    width: 45%;
+}
+
+
+.section_presentation_geng{
+    display: flex;
+    background-color: #272727;
+    padding : 1300px 0px 0px 0px;
+    width: 1920px;
+    color: white;
+}
+
+.div_presentation_text_geng{
+    position: absolute;
+    top : 2700px;
+    left : 45%;
+    font-size: 40px;
+}
+
+.img_logo_equipe_geng_1{
+    position: absolute;
+    top : 2600px;
+    left: 500px;
+    width: 15%;
+}
+
+.text_geng{
+    position: absolute;
+    top : 2950px;
+    text-align: center;
+    left : 12%;
+    font-size: 24px;
+}
+
+.div_geng_img_presentation{
+    position: absolute;
+    top: 3300px;
+    left:650px;
+}
+
+.img_geng_img_presentation{
+    width: 70%;
+}
+
+
+.section_presentation_rox{
+    display: flex;
+    background-color: black;
+    padding : 1400px 0px 0px 0px;
+    width: 1920px;
+    color: white;
+}
+
+.div_presentation_text_rox{
+    position: absolute;
+    top : 4100px;
+    left : 42%;
+    font-size: 40px;
+}
+
+.img_logo_equipe_rox_1{
+    position: absolute;
+    top : 4000px;
+    left: 450px;
+    width: 15%;
+}
+
+.img_logo_equipe_rox_2{
+    position: absolute;
+    top : 4000px;
+    left: 1170px;
+    width: 15%;
+}
+
+.text_rox{
+    position: absolute;
+    top : 4400px;
+    text-align: center;
+    left : 13%;
+    font-size: 24px;
+}
+
+.div_rox_img_presentation{
+    position: absolute;
+    top: 4800px;
+    left:650px;
+}
+
+.img_rox_img_presentation{
+    width: 45%;
+}
+
+
+
+
+.div_bas_page{
+    display: flex;
+    background-color: #272727;
+    padding: 0px 0px 200px 0px;
+    width: 1920px;
+}
+
+
+.div_text_contact{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 50px;
+}
+
+.div_text_condit_utilisa{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 600px;
+}
+
+.div_text_apropos{
+    color :white;
+    position : relative;
+    top : 100px;
+    left : 1290px;
+}

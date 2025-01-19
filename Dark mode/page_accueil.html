@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <!-- On lie les autres pages et le style ainsi que le viewport pour le responsive -->
+        <link rel="page_equipes.html" href="page_equipes.html" type="html">
+        <meta name="viewport" content="width=device-width, maximum-scale=1" />
+        <meta charset="UTF-8">
+        <title>Page d'Accueil</title>
+        <link rel="stylesheet" href="style_page_accueil.css" />
+    </head>
+
+    
+    <body>
+        
+        <header class="head_top_of_site" id="id_head_top_of_site">
+            
+            <!-- Dans le header on met le logo avec un lien, le titre du site, la catégorie "connexion" et le dark/light mode-->
+            <a href="page_accueil.html">
+            <div> 
+                <img class="img_logo_top_site" src="logo_1.jpg" >
+            </div>
+            </a>
+
+            <a href="page_accueil.html">
+            <div class="div_titre_top_site" id="id_titre_top_site">
+                <h1>Pick'Tiim</h1>
+            </div>
+            </a>
+
+            <div class="div_text_top_connexion">
+                <h2>Connexion</h2>
+            </div>
+
+            <div class="div_light_dark_mode">
+                <img class="img_light_mode" id="id_light_mode" src="icone_light_mode.png"/>
+                <img class="img_dark_mode" id="id_dark_mode" src="icone_dark_mode.png"/>
+            </div>
+
+        </header>
+
+        
+        <!-- Dans la page principale on met plusieurs sections -->
+        <main>
+            
+
+            <!-- Cette section sert de menu, avec le texte de chaque partie du menu avec une page reliée -->
+            <section class="section_menu" id="id_section_menu">
+                
+                <a href="page_accueil.html">
+                <div class="div_text_accueil" id="id_text_accueil">
+                    <h1>Accueil</h1>
+                </div>
+                </a>
+
+                <a href="page_equipes.html">
+                <div class="div_text_equipes" id="id_text_equipes">
+                    <h1>Les équipes</h1>
+                </div>
+                </a>
+
+                <div class="div_text_cartes">
+                    <h1>Les cartes</h1>
+                </div>
+
+                <div class="div_text_resultat">
+                    <h1>Les Résultats</h1>
+                </div>
+
+            </section>
+
+            <!-- la vidéo de présentation du jeu vidéo, avec le titre et un bouton cliquable -->
+            <section class="section_video_presentation">
+
+                <a href="https://www.leagueoflegends.com/fr-fr/?utm_medium=card1%2Bwww.leagueoflegends.com&utm_source=riotbar">
+                <div class="div_titre_presentation_video" id="id_titre_presentation_video">
+                    <h1>Inspiré du jeu League of Legends</h1>
+                </div>
+                
+                    <div class="div_button_decouvrir">
+
+                        <button class ="button_decouvrir">Découvrir</button>
+
+                    </div>  
+                </a>
+
+                <div class="div_video">
+                    <video src="video.mp4" autoplay loop muted></video> 
+                </div>
+
+            
+            </section>
+
+            <!-- la section qui présente les cartes du site avec les images des cartes -->
+            <section class="section_carte_presentation" id="id_section_carte_presentation">
+                
+                <div class="div_text_carte" id="id_text_carte">
+                    <h1>Collectionnez de superbes cartes</h1>
+                </div>
+
+                <div class="div_carte">
+                    
+                    <img class="img_carte" src="T1.png"/>
+
+                    <img class="img_carte" src="Gen.G.png"/>
+
+                    <img class="img_carte" src="BLG.png"/>
+
+                    <img class="img_carte" src="HLE.png"/>
+                </div>
+
+            
+            </section>
+
+            <!-- Présentation des équipes avec chaque logo cliquable qui renvoie vers un id précis de l'autre page -->
+            <section class="section_equipe_presentation" id="id_section_equipe_presentation">
+                
+                <a href="page_equipes.html">
+                <div class="div_text_equipe" id="id_text_equipe">
+                    <h1>Jouez avec vos équipes préférées</h1>
+                </div>
+                </a>
+
+                <div class="div_logo_equipe">
+
+                    <a href="page_equipes.html#section_presentation_T1">
+                    <img class="img_logo_equipe_1" src="T1_logo.png"/>
+                    </a>
+
+                    <a href="page_equipes.html#section_presentation_geng">
+                    <img class="img_logo_equipe_2" src="Gen.G_logo.png"/>
+                    </a>
+
+                    <a href="page_equipes.html#section_presentation_geng"></a>
+                    <img class="img_logo_equipe_2_1" id="id_logo_equipes_2_1" src="Gen.G_logo_light_mode.png"/>
+                    </a>
+
+                    <a href="page_equipes.html#section_presentation_rox">
+                    <img class="img_logo_equipe_3" src="ROX_logo_2.webp"/>
+                    </a>
+
+                    <a href="page_equipes.html">
+                    <img class="img_logo_equipe_4" src="HLE_logo.png"/>
+                    </a>
+
+                </div>
+                
+            
+            </section>
+
+            <!-- L'actualité avec un titre et une image pour chaque -->
+            <section class="section_actualite" id="id_section_actualite">
+                
+                <div class="div_titre_actualite" id="id_titre_actualite">
+                    <h1>Actualité E-sport</h1>
+                </div>
+
+                <div class="articles">
+                    <div class="div_actualite_1 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/faker-gains-tournois_133014">
+                        <img class="img_actu_1" src="image_actu_1.webp"/> 
+                        <h1 id="text_actualite_1">Combien Faker a-t-il remporté d'argent en tournoi depuis le début de sa carrière ?</h1>
+                        </a>
+                    </div>
+                    
+                    <div class="div_actualite_2 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/faker-et-t1-decrochent-leur-5e-titre-mondial-en-battant-bilibili-gaming-en-finale-des-worlds-2024_132983">
+                        <img class ="img_actu_2" src="image_actu_2.jpg"/>
+                        <h1 id="text_actualite_2">Faker et T1 décrochent leur 5e titre mondial en battant Bilibili Gaming en finale des Worlds 2024</h1>
+                        </a>
+                    </div>
+    
+                    <div class="div_actualite_3 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/le-mvp-de-la-finale-des-worlds-2024-pour-xxxx-le-xxxx-des-xxxx_132984">
+                        <img class ="img_actu_3" src="image_actu_3.jpg"/>
+                        <h1 id="text_actualite_3">Le MVP de la finale des Worlds 2024 pour Faker, le midlaner des T1</h1>
+                        </a>
+                    </div>
+    
+                    <div class="div_actualite_4 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/la-lpl-face-a-des-baisses-salariales-drastiques-et-a-une-crise-financiere-majeure_132998">
+                        <img class ="img_actu_4" src="image_actu_4.jpg"/>
+                        <h1 id="text_actualite_4">La LPL face à des baisses salariales drastiques et à une crise financière majeure</h1>
+                        </a>
+                    </div>
+    
+                    <div class="div_actualite_5 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/t1-de-ladversite-a-la-gloire-une-saison-2024-tumultueuse-marquee-par-un-5e-sacre-mondial-1_133007">
+                        <img class ="img_actu_5" src="image_actu_5.jpg"/>
+                        <h1 id="text_actualite_5">T1, de l'adversité à la gloire : une saison 2024 tumultueuse marquée par un cinquième sacre mondial</h1>
+                        </a>
+                    </div>
+    
+                    <div class="div_actualite_6 article">
+                        <a href="https://www.team-aaa.com/fr/actualite/mercato-lol-bilibili-gaming-vers-une-continuite-du-roster-2024-pour-la-saison-2025_133002">
+                        <img class ="img_actu_6" src="image_actu_6.jpg"/>
+                        <h1 id="text_actualite_6">Mercato LoL : Bilibili Gaming, vers une continuité du roster 2024 pour la saison 2025 ?</h1>
+                        </a>
+                    </div>
+                </div>
+                
+            </section>
+        
+        </main>
+
+        <!-- Dans le footer, 3 textes simples -->
+        <footer>
+            <div class="div_bas_page" id="id_bas_page">
+                
+                <div class="div_text_contact" id="id_text_contact">
+                    <h2>Nous contacter</h2>
+                </div>
+
+                <div class="div_text_condit_utilisa" id="id_text_condit_utilisa">
+                    <h2>Conditions générales d'utilisation</h2>
+                </div>
+
+                <div class="div_text_apropos" id="id_text_apropos">
+                    <h2>À propos</h2>
+                </div>
+            
+            </div>
+
+        </footer>
+
+    
+    </body>
+
+</html>
+
+<!-- On lie le javascript à la fin -->
+<script src="javascript.js"></script>
